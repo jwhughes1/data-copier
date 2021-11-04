@@ -1,4 +1,4 @@
-BASE_DIR = '/Users/jwhughes/PycharmProjects/data-copier/retail_db_json'
+BASE_DIR = '/retail_db_json'
 table_name = 'orders'
 
 import os

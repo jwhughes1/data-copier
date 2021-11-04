@@ -3,7 +3,7 @@ import pandas as pd
 conn = 'postgresql://retail_user:retail_password@localhost:5452/retail_db'
 pd.read_sql('SELECT * FROM departments', conn)
 
-BASE_DIR = '/Users/jwhughes/PycharmProjects/data-copier/retail_db_json'
+BASE_DIR = '/retail_db_json'
 table_name = 'departments'
 
 import os
